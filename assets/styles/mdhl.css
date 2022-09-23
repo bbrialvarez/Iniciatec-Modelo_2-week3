@@ -1,0 +1,189 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0%;
+}
+body {
+    background-color: white;
+    font-size: 1.5rem;
+    font-family: cursive;
+  }
+  
+  .header-tittle {
+    font-size: 4rem;
+    margin: 0rem;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    background: url("../img/design1_image2.jpg");
+    background-position: center;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header .header-navbar {
+    position: relative;
+    top: -1rem;
+    display: flex;
+    justify-content: end;
+  }
+  header .header-navbar a {
+    color: white;
+    background-color: rgb(39, 84, 232);
+    border: 1px solid black;
+    box-shadow: 0.2rem 0.2rem rgb(52, 50, 50);
+    font-size: 1rem;
+    padding: 0.2rem 0.8rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    display: block;
+  }
+  header .header-navbar .bg-green {
+    background-color: rgb(109, 170, 18);
+  }
+  header .header-tittle {
+    padding: 1rem 2rem;
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 400;
+  }
+  header div {
+    position: relative;
+  }
+  header h2 {
+    font-size: 1.4rem;
+    padding: 0.7rem;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  
+  .main {
+    display: flex;
+  }
+  .main .main-aside {
+    height: 40vh;
+    min-width: max-content;
+  }
+  .main .main-info {
+    max-width: 100%;
+    padding: 2rem;
+    
+  }
+  .main .main-info p {
+    margin-bottom: 1rem;
+    text-indent: 1.3rem;
+    font-size: 1.4rem;
+  }
+  .main .main-list {
+    padding: 2rem 1rem 0;
+    font-size: 1.4rem;
+    list-style: none
+  }
+  .main .main-list ul, .main .main--list li {
+    margin: 0;
+    padding: 0 1rem 0.5rem 1rem;
+  }
+  .main .main-list p {
+    text-indent: 2rem;
+  }
+  .main aside {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  .main .main-aside .header-logo {
+    max-width: 150px;
+  }
+  .table-body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding-inline: 5vw;
+    
+}
+.table-title{
+    display: flex;
+    justify-content: flex-end;
+    padding: 4% 11%;
+}
+.table-p{
+   padding: 0% 0% 2% 0%;
+}
+.information-p{
+  padding: 0% 0% 2% 0%;
+}
+.subrayado {
+    text-decoration: underline;
+}
+.bold{
+   font-weight: bold;
+}
+.additional-information{
+    padding: 4% 4% 4% 0%;
+}
+.contact-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+table{
+    width: 100%;
+    padding: 4% 4% 4% 0%;
+}
+table th{
+    text-align: left;
+    
+}
+.center{
+    text-align: center;
+}
+.rules-main{
+  display: flex;
+  flex-direction: column;
+  padding-inline: 5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.rules-title{
+  text-align: center;
+  padding: 4% 0% 0% 0%;
+}
+::marker{
+  font-size: 21px;
+  font-weight: bold;
+}
+.rules-info{
+  list-style-position: inside;
+}
+.bold{
+  font-weight: bold;
+}
+.rules-p{
+  text-indent: 2rem;
+}
+.circle-list{
+  margin-left: 4rem;
+  list-style: circle;
+}
+.subtitle{
+  padding: 4% 0%;
+}
+.li-1{
+  padding: 2% 0%;
+}
+.subtitle-2{
+ padding: 4% 0% 2% 0%;
+}
+.li-no-bold::marker{
+  font-weight: normal;
+}
+.li-3{
+  padding: 2% 0% 1% 0%;
+}
+
